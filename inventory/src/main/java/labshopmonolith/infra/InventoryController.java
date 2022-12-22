@@ -19,9 +19,6 @@ public class InventoryController {
     @Autowired
     InventoryRepository inventoryRepository;
 
-
-
-
     @RequestMapping(value = "inventories/{id}/decreasestock",
         method = RequestMethod.PUT,
         produces = "application/json;charset=UTF-8")
